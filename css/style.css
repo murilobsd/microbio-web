@@ -94,7 +94,19 @@ dt {
 }
 
 @media screen and (max-width: 37.5em) {
-  pre {
-    display: none;
+  .banner {
+    display: none !important;
+  }
+  .banner-mb {
+    display: inline-block !important;
+  }
+}
+
+@media screen and (min-width: 37.6em) {
+  .banner {
+    display: inline-block !important;
+  }
+  .banner-mb {
+    display: none !important;
   }
 }
