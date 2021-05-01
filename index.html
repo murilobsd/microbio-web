@@ -42,16 +42,44 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1><a href="https://microbio.rs">microbio</a></h1>
-    <p>Microservice framework</p>
-    <pre>
+    <header class="d-b ta-c">
+      <pre class="d-ib ta-l">
 ███╗   ███╗██╗ ██████╗██████╗  ██████╗ ██████╗ ██╗ ██████╗ 
 ████╗ ████║██║██╔════╝██╔══██╗██╔═══██╗██╔══██╗██║██╔═══██╗
 ██╔████╔██║██║██║     ██████╔╝██║   ██║██████╔╝██║██║   ██║
 ██║╚██╔╝██║██║██║     ██╔══██╗██║   ██║██╔══██╗██║██║   ██║
 ██║ ╚═╝ ██║██║╚██████╗██║  ██║╚██████╔╝██████╔╝██║╚██████╔╝
 ╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝
+                                    Microservice framework
 	</pre
+      >
+    </header>
+    <h2>Example</h2>
+    <div
+      style="
+        background: #ffffff;
+        overflow: auto;
+        width: auto;
+        border: solid;
+        border-width: 0.1em 0.1em 0.1em 0.1em;
+        padding: 0.2em 0.6em;
+      "
     >
+      <pre
+        style="margin: 0; line-height: 125%"
+      ><span style="font-weight: bold">use</span> microbio::service;
+
+<span style="font-weight: bold">fn</span> main() {
+    <span style="font-weight: bold">let</span> service = service::new_service();
+
+    service.init();
+
+    <span style="font-weight: bold">match</span> service.run() {
+        Ok(_) =&gt; (),
+        Err(_) =&gt; panic!(<span style="font-style: italic">&quot;Service run failed&quot;</span>),
+    };
+}
+</pre>
+    </div>
   </body>
 </html>

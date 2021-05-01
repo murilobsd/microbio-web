@@ -15,15 +15,41 @@ body {
 h1 {
   font-size: 2em;
   font-weight: 700;
-  line-height: 0.75;
+  line-height: 0.75em;
+  margin: 0.65625em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1em;
   margin: 0.65625em 0;
 }
 
 pre {
   font-size: 1em;
   white-space: pre;
-  margin: 0.9375em 0;
+  margin-top: 1.9375em;
+  margin-bottom: 0.9375em;
+  margin-left: 0;
+  margin-right: 0;
   font-family: Monospace;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.d-b {
+  display: block;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
 }
 
 .text-input {
