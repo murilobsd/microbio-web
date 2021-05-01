@@ -1,74 +1,74 @@
 html {
-	-webkit-text-size-adjust: 100%;
-	padding-bottom: 4em
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 4em;
 }
 
 body {
-	font-size: 16px;
-	font-family: sans-serif;
-	line-height: 1.5em;
-	max-width: 40em;
-	padding: 0 2%;
-	margin: auto
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  max-width: 40em;
+  padding: 0 2%;
+  margin: auto;
 }
 
 h1 {
-	font-size: 2em;
-	font-weight: 700;
-	line-height: 0.75;
-	margin: 0.65625em 0;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 0.75;
+  margin: 0.65625em 0;
 }
 
 pre {
-	font-size: 1em;
-	white-space: pre;
-    margin: 0.9375em 0;
-    font-family: Monospace;
+  font-size: 1em;
+  white-space: pre;
+  margin: 0.9375em 0;
+  font-family: Monospace;
 }
 
 .text-input {
-	width: 96%;
-	display: block;
-	padding: .5em 1%;
-	margin-bottom: 1.5em;
-	font-size: 1em
+  width: 96%;
+  display: block;
+  padding: 0.5em 1%;
+  margin-bottom: 1.5em;
+  font-size: 1em;
 }
 
 fieldset {
-	margin-bottom: 1.5em
+  margin-bottom: 1.5em;
 }
 
 textarea {
-	height: 10em
+  height: 10em;
 }
 
 dt {
-	font-weight: bold
+  font-weight: bold;
 }
 
 .important {
-	color: red
+  color: red;
 }
 
 .footer {
-	text-align: right
+  text-align: right;
 }
 
 .centered {
-	text-align: center
+  text-align: center;
 }
 
 .nope {
-	display: none
+  display: none;
 }
 
 .ad-container {
-	float: left;
-	min-width: 33%
+  float: left;
+  min-width: 33%;
 }
 
 @media screen and (max-width: 37.5em) {
   pre {
-	display: none;
+    display: none;
   }
 }
