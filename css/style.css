@@ -10,6 +10,8 @@ body {
   max-width: 40em;
   padding: 0 2%;
   margin: auto;
+  color: #000;
+  background: #fff;
 }
 
 h1 {
@@ -36,6 +38,10 @@ pre {
   font-family: Monospace;
 }
 
+a {
+  color: #0033cc;
+}
+
 .d-ib {
   display: inline-block;
 }
@@ -52,45 +58,18 @@ pre {
   text-align: left;
 }
 
-.text-input {
-  width: 96%;
-  display: block;
-  padding: 0.5em 1%;
-  margin-bottom: 1.5em;
-  font-size: 1em;
+div.example {
+  background: #ffffff;
+  overflow: auto;
+  width: auto;
+  border: solid;
+  border-width: 0.1em 0.1em 0.1em 0.1em;
+  padding: 0.2em 0.6em;
 }
 
-fieldset {
-  margin-bottom: 1.5em;
-}
-
-textarea {
-  height: 10em;
-}
-
-dt {
-  font-weight: bold;
-}
-
-.important {
-  color: red;
-}
-
-.footer {
-  text-align: right;
-}
-
-.centered {
-  text-align: center;
-}
-
-.nope {
-  display: none;
-}
-
-.ad-container {
-  float: left;
-  min-width: 33%;
+div.example pre {
+  margin: 0;
+  line-height: 125%;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -106,7 +85,28 @@ dt {
   .banner {
     display: inline-block !important;
   }
+
   .banner-mb {
     display: none !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  body a {
+    color: #809fff;
+  }
+
+  div.example {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  div.example pre {
+    font-size: 0.8125em;
   }
 }
