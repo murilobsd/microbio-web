@@ -42,6 +42,12 @@ a {
   color: #0033cc;
 }
 
+pre.license {
+  font-size: 0.857em;
+  line-height: 1.667em;
+  font-weight: 400;
+}
+
 .d-ib {
   display: inline-block;
 }
